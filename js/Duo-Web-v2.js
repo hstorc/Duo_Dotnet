@@ -7,7 +7,7 @@ window.Duo = (function(document, window) {
     var DUO_ERROR_FORMAT = /^ERR\|[\w\s\.\(\)]+$/;
 
     var iframeId = 'duo_iframe',
-        postAction = '',
+        postAction = 'keysquare.com',
         postArgument = 'sig_response',
         host,
         sigRequest,
